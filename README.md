@@ -1,8 +1,8 @@
 # udemy-React
 
-##main
+## main
 
-##section7
-##section8
-##section9
-##section10
+## section6
+## section8
+## section9
+## section10
