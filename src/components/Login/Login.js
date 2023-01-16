@@ -17,6 +17,7 @@ const Login = (props) => {
     );
   }, [enteredEmail, enteredPassword]);
 
+  // todo
   const emailChangeHandler = (event) => {
     setEnteredEmail(event.target.value);
   };
