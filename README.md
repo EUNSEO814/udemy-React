@@ -15,5 +15,8 @@
 ## section9
 - 프래그먼트 작업, Portals & Refs
 
-## section10
+## section10-1
+- useEffect
+
+## section10-2
 - Reducer사용하여 부작용 처리 & 컨텍스트 API  사용하기
