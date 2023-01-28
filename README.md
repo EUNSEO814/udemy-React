@@ -20,3 +20,7 @@
 
 ## section10-2
 - Reducer사용하여 부작용 처리 & 컨텍스트 API  사용하기
+
+
+## section12
+- 리액트 최적화 테크닉 (useCallback(), useMemo())
