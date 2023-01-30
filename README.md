@@ -30,3 +30,7 @@
 - async, await 
 - useEffect, useCallback
 - error 처리하기
+
+## branch - section14-2
+- HTTP 요청 보내기
+- POST 요청 보내기
