@@ -21,6 +21,12 @@
 ## branch - section10-2
 - Reducer사용하여 부작용 처리 & 컨텍스트 API  사용하기
 
-
 ## branch - section12
 - 리액트 최적화 테크닉 (useCallback(), useMemo())
+
+## branch - section14-1
+- HTTP 요청 보내기
+- GET 요청 보내기
+- async, await 
+- useEffect, useCallback
+- error 처리하기
