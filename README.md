@@ -45,4 +45,6 @@
 
 ## branch - section16
 - form, input
-- 
+- 유효성 검사
+- 커스텀 훅 사용하기 (useInput)
+- useReducer() 사용하기
