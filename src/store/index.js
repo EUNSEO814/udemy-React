@@ -1,49 +1,34 @@
-import { createStore } from "redux";
+// import { legacy_createStore as createStore, combineReducers } from "redux";
+import { createSlice, configureStore } from "@reduxjs/toolkit";
 
 const initialState = { counter: 0, showCounter: true };
 
 // 전역 상태의 createSlice를 미리 만들어둬야함.
+const counterSlice = createSlice({
+  name: "counter",
+  // initialState: initialState
+  // ===
+  initialState,
+  reducers: {
+    increment(state) {
+      state.counter++;
+    },
+    decrement(state) {
+      state.counter--;
+    },
+    increase(state, action) {
+      state.counter = state.counter + action.payload;
+    },
+    toggleCounter(state) {
+      state.showCounter = !state.showCounter;
+    },
+  },
+});
 
-const counterReducer = (state = initialState, action) => {
-  // 원본 state 직접 변경 절대금지!! - 예측 불가능한 동작이 발생할 수도 있고, 프로그램 디버깅하는 것도 어려워질 수 있음.
-  // if (action.type === "increment") {
-  //     state.counter++;
-  //     return {
-  //       counter: state.counter ,
-  //       showCounter: state.showCounter,
-  //     };
-  //   }
+const store = configureStore({
+  //   reducer: { counter: counterSlice.reducer },
+  reducer: counterSlice.reducer,
+});
 
-  if (action.type === "increment") {
-    return {
-      counter: state.counter + 1,
-      showCounter: state.showCounter,
-    };
-  }
-
-  if (action.type === "increase") {
-    return {
-      counter: state.counter + action.amount,
-      showCounter: state.showCounter,
-    };
-  }
-
-  if (action.type === "decrement") {
-    return {
-      counter: state.counter - 1,
-      showCounter: state.showCounter,
-    };
-  }
-
-  if (action.type === "toggle") {
-    return {
-      counter: state.counter,
-      showCounter: !state.showCounter,
-    };
-  }
-
-  return state;
-};
-const store = createStore(counterReducer);
-
+export const counterActions = counterSlice.actions;
 export default store;
