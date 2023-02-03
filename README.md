@@ -48,3 +48,8 @@
 - 유효성 검사
 - 커스텀 훅 사용하기 (useInput)
 - useReducer() 사용하기
+
+## branch - section18
+- redux vs react context
+- redux 개념
+- redux-toolkit
