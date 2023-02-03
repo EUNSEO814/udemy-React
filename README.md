@@ -53,3 +53,9 @@
 - redux vs react context
 - redux 개념
 - redux-toolkit
+
+## branch - section19
+- redux-toolkit 복습
+- redux 및 비동기 코드
+- Thunk
+- redux DevTools
