@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { counterActions } from "../store";
+import { counterActions } from "../store/counterSlice";
 // import { Component } from "react";
 // import { connect } from "react-redux";
 
