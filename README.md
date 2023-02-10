@@ -63,5 +63,6 @@
 ## branch - section20
 - 라우팅 
 - v5 & v6
+- 6.4 새로운 기능
 
 ## branch - section21
