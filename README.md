@@ -70,3 +70,5 @@
 
 
 ## branch - section22
+- 로딩지연 React.lazy(), Suspense
+- 배포하기 (firebase)
