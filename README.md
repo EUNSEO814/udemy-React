@@ -74,4 +74,10 @@
 - 배포하기 (firebase)
 
 
-## branch - section23
+## branch - section23-1
+- nextJS란?& 주요 기능
+- 페이지 추가하기
+- 중첩 경로 & 동적 페이지 만들기 & 동적 매개변수 값 추출하기
+- 페이지 간 연결하기
+
+## branch - section23-2
