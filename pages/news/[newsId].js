@@ -1,4 +1,4 @@
-// our domain.com/news/detail
+// our domain.com/news/[]
 
 const DetailPage = () => {
   return <h1>The Detail Page</h1>;
