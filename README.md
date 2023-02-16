@@ -81,3 +81,6 @@
 - 페이지 간 연결하기
 
 ## branch - section23-2
+
+## branch - section24
+
