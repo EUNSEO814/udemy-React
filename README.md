@@ -81,6 +81,11 @@
 - 페이지 간 연결하기
 
 ## branch - section23-2
+- 몽고DB
+- http요청
+- 데이터베이스에서 데이터 가져오기
+- head meata데이터 추가하기
+- Next.js배포하기 (vercel)
 
 ## branch - section24
 
