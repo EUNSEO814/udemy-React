@@ -88,5 +88,8 @@
 - Next.js배포하기 (vercel)
 
 ## branch - section24
+- css
+- animation
+- react-transition-group (Transition, CSSTransition, TransitionGroup)
 
 ## branch - section25
