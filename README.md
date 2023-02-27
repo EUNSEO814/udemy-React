@@ -92,6 +92,7 @@
 - animation
 - react-transition-group (Transition, CSSTransition, TransitionGroup)
 
-## branch - section25-1
-## branch - section25-1
-## branch - section25-1
+## branch - section25
+- 리덕스를 리액트 훅으로 바꾸기
+- 컨텍스트 API 사용
+- 커스텀 훅 사용하기
