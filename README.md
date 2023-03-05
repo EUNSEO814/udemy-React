@@ -103,4 +103,5 @@
 - 비동기 코드 테스트 하기
 
 ## branch - section27
-
+- typescript
+- string, boolean, number, arrays, objects, Function types, parameters, Generic
