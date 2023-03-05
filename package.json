@@ -1,0 +1,23 @@
+{
+  "name": "01-starting-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "no-typescript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EUNSEO814/udemy-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EUNSEO814/udemy-React/issues"
+  },
+  "homepage": "https://github.com/EUNSEO814/udemy-React#readme",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
