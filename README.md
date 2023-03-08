@@ -105,3 +105,5 @@
 ## branch - section27
 - typescript
 - string, boolean, number, arrays, objects, Function types, parameters, Generic
+- typescript로 TodoList만들기
+- typescript & context API
